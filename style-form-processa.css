@@ -40,7 +40,7 @@ h1 {
 }
 
 /* Espaçamento entre os blocos */
-form { margin: 20px 0; }
+form, h2 { margin: 20px 0; }
 
 form div, .dados p {
     margin-bottom: 15px;
