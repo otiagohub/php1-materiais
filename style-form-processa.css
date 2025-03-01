@@ -40,8 +40,6 @@ h1 {
 }
 
 /* Espaçamento entre os blocos */
-form, h2 { margin: 20px 0; }
-
 form div, .dados p {
     margin-bottom: 15px;
 }
@@ -88,6 +86,8 @@ button {
     border-radius: 5px;
 }
 
+button[name=cadastrar]{ background: green; }
+
 button:hover {
     background: #0056b3;
 }
@@ -116,4 +116,13 @@ button:hover {
 ul {
     color: red;
     margin: 10px 0;
+}
+
+form, h2 { margin: 20px 0; }
+
+.mensagem {
+    text-align: center;
+    font-weight: bold;
+    color: purple;
+    margin: 10px;
 }
