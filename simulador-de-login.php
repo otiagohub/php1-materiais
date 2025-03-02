@@ -11,7 +11,7 @@
         <h1>Simulador de Login</h1>
 
         <h2>Login</h2>
-        <form action="" method="post">
+        <form action="" method="post" autocomplete="off">
             <div>
                 <label for="nome">E-mail:</label>
                 <input required type="email" name="email" id="email">
@@ -26,7 +26,7 @@
         <p>Ou <a href="">cadastre-se</a>!</p>
 
         <h2>Cadastro</h2>
-        <form action="" method="post">
+        <form action="" method="post" autocomplete="off">
             <div>
                 <label for="nome">Nome:</label>
                 <input autofocus required type="text" name="nome" id="nome">
