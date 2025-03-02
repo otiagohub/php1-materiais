@@ -13,7 +13,7 @@
         <h2>Login</h2>
         <form action="" method="post" autocomplete="off">
             <div>
-                <label for="nome">E-mail:</label>
+                <label for="email">E-mail:</label>
                 <input required type="email" name="email" id="email">
             </div>
             <div>
